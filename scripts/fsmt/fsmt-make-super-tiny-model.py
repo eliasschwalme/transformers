@@ -66,6 +66,7 @@ config = FSMTConfig(
     encoder_layers=1, decoder_layers=1,
     encoder_ffn_dim=4, decoder_ffn_dim=4,
     encoder_attention_heads=1, decoder_attention_heads=1,
+    encoder_attention_heads=1, decoder_attention_heads=2,
 )
 
 tiny_model = FSMTForConditionalGeneration(config)
